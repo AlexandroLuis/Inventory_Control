@@ -15,7 +15,7 @@
 	$bairro=$_POST ['bairro'];		
 	
 	Require ('conexao.php');
-	$sqlinsert ="insert into produtos values ('','$nome','$email','$telefone','$rua','$bairro')";
+	$sqlinsert ="insert into clientes values ('','$nome','$email','$telefone','$rua','$bairro')";
 	
 	mysqli_query($db, $sqlinsert) or die ('não foi possivel inserir');
 	echo "<script> alert ('cadastro realizado com sucesso')</script>"; 

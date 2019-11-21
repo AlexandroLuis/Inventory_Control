@@ -54,7 +54,6 @@
                 <th>Fornecedor</th>
                 <th>E-mail</th>
                 <th>Telefone</th>
-				<th>Produto</th>
 				<th>Alterar</th>
             </tr> 
 			<?php
@@ -71,10 +70,9 @@
 		
 				$linha =1;
 				while($row =mysqli_fetch_assoc($result)) {
-					echo "<tr><td>"	.$row['Nome_fornecedor'] ."</td><td>" .$row['Email_fornecedor'] ."</td><td>"
-						.$row['Tel_fornecedor'] ."</td><td>"		.$row['Nome_produto'] ."</td><td>"		
-				 ."<a href=2.alterar_fornecedor.php?id=".$row['id'] ."''>
-			Alterar</a>";
+					echo "<tr><td>"	.$row['Nome_fornecedor'] ."</td><td>" .$row['Email_fornecedor'] 
+					."</td><td>" .$row['Tel_fornecedor'] ."</td><td>" ."<a href=2.alterar_fornecedor.php?id=".$row['id'] ."''>
+					Alterar</a>";
 			$linha++;
 		}
 		mysqli_free_result($result);

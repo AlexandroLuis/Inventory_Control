@@ -15,7 +15,7 @@
 <body>
 	<form action="2.envio_alterar_fornecedor(1).php" method="GET">
 		<input name="id" type="hidden" value ="<?php echo $row['id']?>"<br>
-		Nome do Produto: <input name="nome" type="text" value="<?php echo $row['Nome_fornecedor']?>"<br>  
+		Novo número de telefone: <input name="nome" type="text" value="<?php echo $row['Tel_fornecedor']?>"<br>  
 		<input type="submit" value="Alterar" name="btSalvar"><br/>
 		<input type="submit" value="Cancelar" name="btSair" onclick="location.href='fornecedores.php'; ">
 	</form>

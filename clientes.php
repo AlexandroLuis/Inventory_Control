@@ -48,7 +48,7 @@
     </div>
 
     <div class="tab-container">
-        <h2><a href=2.relatorio_clientes.php? >Clientes</a></h2>
+        <h2><a href=relatorio_cliente.php? >Clientes</a></h2>
         <table>
             <tr>
                 <th>Cliente</th>

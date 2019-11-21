@@ -41,7 +41,6 @@
             <tr>
                 <th>Cod. Produto</th>
                 <th>Produto</th>
-				<th></th>
                 <th>Descrição</th>
                 <th>Preço</th>
                 <th>Estoque Atual</th>

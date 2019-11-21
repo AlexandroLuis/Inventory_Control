@@ -6,12 +6,12 @@
 <body>
 	<?php 
 		$id=$_GET['id'];
-		$NOME=$_GET['Nome_fornecedor'];
+		$NOME=$_GET['nome'];
 		require('conexao.php');
-		$alterar ="update fornecedor set Nome_fornecedor='$NOME' where id='$id' ";
+		$alterar ="update fornecedor set Tel_fornecedor='$NOME' where id='$id' ";
 		mysqli_query($db,$alterar) or die ('Não foi possível alterar');
 		echo "<script>alert('Cadastro alterado com sucesso!');
-		window.location.href='fornecedores.php</script>";
+		window.location.href='fornecedores.php'</script>";
 	?>
 </body>
 </html>

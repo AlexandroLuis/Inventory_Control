@@ -11,14 +11,13 @@
 	$nome=$_POST ['nome'];
 	$descricao=$_POST ['descricao'];
 	$preco=$_POST ['preco'];
-	$fornecedor=$_POST ['fornecedor'];
 	$marca=$_POST ['marca'];
 	$qtd_estoque=$_POST ['qtd_estoque'];
 	
 		
 	
 	Require ('conexao.php');
-	$sqlinsert ="insert into produtos values ('','$nome','$descricao','$preco','$fornecedor','$marca','$qtd_estoque')";
+	$sqlinsert ="insert into produtos values ('','$nome','$descricao','$preco','$marca','$qtd_estoque')";
 	
 	mysqli_query($db, $sqlinsert) or die ('não foi possivel inserir');
 	echo "<script> alert ('cadastro realizado com sucesso')</script>"; 

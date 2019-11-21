@@ -13,7 +13,7 @@
 
 	<form action="cadastro_clientes.php" method="POST" />
 	<p align="center">
-			Nome cliente: <input type="text" name="cliente" /> <br><br>
+			Nome cliente: <input type="text" name="nome" /> <br><br>
 			E-mail: <input type="text" name="email" /> <br><br>
             Telefone: <input type="text" name="telefone" /> <br><br>
             Rua: <input type="text" name="rua" /> <br><br>
